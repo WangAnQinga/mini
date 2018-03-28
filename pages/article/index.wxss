@@ -1,0 +1,46 @@
+.swiper-content{
+  height:185px;
+  padding:0;
+  margin:0;
+  position:relative;
+}
+ .slide-image{
+   width:100%; 
+} 
+.recom-title{
+  position: absolute;
+  color:#fff;
+  font-size:12px;
+  bottom:0;
+  left:0;
+}
+
+.article-item{
+  display: flex;
+  height:100px;
+  border-bottom:1px solid #dfdfdf;
+  justify-content: space-around;  
+  align-items: center;
+  font-size:14px;
+  padding:17px 13px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.article-img{
+  width:118px;
+  height:74px;
+}
+.article-detail{
+  width:203px;
+  height:100%;
+  font-size:17px;
+  line-height: 1.2;
+  position:relative;
+}
+.article-time{
+  font-size:13px;
+  position: absolute;
+  left:0;
+  bottom:0; 
+}

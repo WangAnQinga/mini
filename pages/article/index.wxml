@@ -1,0 +1,21 @@
+<view class="swiper-content">
+  <swiper indicator-dots="true" indicator-color="rgba(0,0,0,.85)" indicator-active-color="#ffffff" autoplay="true">
+    <block wx:for="{{swiperList}}">
+      <swiper-item>
+        <image src="{{item.picture}}" class="slide-image" mode="scaleToFill"/>
+        <!-- <view class="recom-title">{{item.title}}</view> -->
+      </swiper-item>
+    </block>
+  </swiper>
+</view>
+
+<view class="article-depth">
+  <view class="article-item" wx:for="{{articleList}}">
+    <view class="article-detail">
+      <view class="article-title">{{item.articleTitle}}</view>
+      <view class="article-time">{{item.publishDate}}</view>
+      <!-- <view class="article-summary">{{item.summary}}</view> -->
+    </view>
+    <image src="{{item.picturePath}}" class="article-img" />
+  </view>
+</view>

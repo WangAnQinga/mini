@@ -1,0 +1,35 @@
+{
+    "pages":[
+        "pages/index/index",
+        "pages/user/index",
+        "pages/article/index"
+    ],
+    "window":{
+      "navigationBarBackgroundColor":"#373b3e",
+      "navigationBarTitleText":"Wechat",
+      "navigationBarTextStyle":"#fff",
+      "backgroundColor":"black",
+      "backgroundTextStyle":"dark",
+      "enablePullDownRefresh":true
+    },
+    "tabBar":{
+      "color":"#999",
+      "selectedColor":"#000",
+      "list":[{
+        "pagePath":"pages/index/index",
+        "text":"直播"
+      },
+      {
+        "pagePath":"pages/article/index",
+        "text":"深度"
+      },{
+        "pagePath":"pages/user/index",
+        "text":"我的"
+      }]
+    },
+    "netWorkTimeout":{
+      "request":10000,
+      "downloadFile":10000
+    },
+    "debug":true
+}

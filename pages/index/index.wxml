@@ -1,0 +1,5 @@
+<view class="section">
+    <view wx:for="{{list}}" class="list-item">
+      {{item.createTime}} : {{item.title}}
+    </view>
+</view>
